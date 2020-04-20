@@ -5,7 +5,7 @@
 4. Side dan bottom navigation
 5. Loading by skeleton style
 
-# screnshoot
+# Screnshoot
 
 ![alt_text](images/home-page.png)
 ![alt_text](images/detail-page.png)
