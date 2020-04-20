@@ -1,5 +1,10 @@
 # movie-app
 
+# screnshoot
+
+![alt_text](images/home-page.png)
+![alt_text](images/detail-page.png)
+
 ## Project setup
 ```
 npm install
@@ -20,5 +25,4 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* **Faridho** - [Medium](https://medium.com/@faridho)
