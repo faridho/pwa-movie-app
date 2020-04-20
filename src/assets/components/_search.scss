@@ -1,0 +1,52 @@
+@import './colors';
+
+$borderIconSearch: 6px 0px 0px 6px;
+$borderIconClose: 0px 6px 6px 0px;
+$search-components: (
+    "search" $borderIconSearch,
+    "close" $borderIconClose
+);
+.search-form {
+    margin: auto;
+    padding: 12px;
+
+    .search-text {
+        background: $mainBackground;
+        width: 80%;
+        float: left;
+        font-size: 16px;
+        height: 36px;
+        border: none;
+        outline: none;
+    }
+
+    @each $type, $borderRadius in $search-components {
+        .icon-#{$type} {
+            float: left;
+            outline: none;
+            border: none;
+            text-align: center;
+            vertical-align: middle;
+            height: 38px;
+            width: 10%;
+            background: $mainBackground;
+            color: $title;
+            border-radius: $borderRadius;
+        }
+    }
+
+    .search-result {
+        background: $mainBackground;
+        padding:12px;
+        margin-top: 34px;
+        border-radius: 0px 0px 6px 6px;
+
+        a {
+            text-decoration: none;
+            font-size: 16px;
+            padding-top: 12px;
+            color: $title;
+            display: block;
+        }
+    }
+}

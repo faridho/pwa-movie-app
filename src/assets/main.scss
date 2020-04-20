@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import './components/banner';
+@import './components/components';
+@import './components/card';
+@import './components/footer';
+@import './components/detail';
+@import './components/skelton';
+@import './components//header';
+@import './components/page';
+@import './components/sidebar';
+@import './components//search';
+@import './components/video';
+
+body {
+    background-color: #ecf0f1;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}

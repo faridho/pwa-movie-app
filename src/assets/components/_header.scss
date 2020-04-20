@@ -1,0 +1,25 @@
+@import './colors';
+
+.header {
+    background: $theme;
+    margin: auto;
+    height: 26px;
+    padding: 15px 10px 10px 10px;
+    -webkit-box-shadow: -1px -1px 7px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 7px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 7px -1px rgba(0,0,0,0.75);
+
+    .header-arrow {
+        float: left;
+        width: 10%;
+        color: $mainBackground;
+        font-size: 18px;
+    }
+
+    .header-title {
+        float: right;
+        width: 90%;
+        color: $mainBackground;
+        font-size: 16px;
+    }
+}
