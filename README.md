@@ -1,4 +1,9 @@
-# movie-app
+# Movie App
+1. This app is pwa mode. 
+2. Display movies list and detail from api
+3. Available live search column feature
+4. Side dan bottom navigation
+5. Loading by skeleton style
 
 # screnshoot
 
