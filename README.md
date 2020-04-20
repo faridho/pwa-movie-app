@@ -4,6 +4,7 @@
 3. Available live search column feature
 4. Side dan bottom navigation
 5. Loading by skeleton style
+6. Using scss for styling
 
 # Screnshoot
 
