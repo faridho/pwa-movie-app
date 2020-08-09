@@ -6,7 +6,7 @@
 5. Loading by skeleton style
 6. Using scss for styling
 
-# Screnshoot
+# Screenshot
 
 ![alt_text](images/home-page.png)
 ![alt_text](images/detail-page.png)
